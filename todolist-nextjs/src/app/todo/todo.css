@@ -1,0 +1,190 @@
+* {
+    text-align: center;
+    font-size: 18px;
+}
+
+body {
+    background-color: #eaeaea;
+}
+
+.content{
+    border-radius: 5px;
+    border: 1px solid rgb(200, 200, 200);
+    margin-top: 15px;
+    margin-left: 30px;
+    margin-right: 30px;
+    background-color: #ffffff;
+}
+
+.input-text{
+    border: 1px solid rgb(200, 200, 200);
+    border-radius: 5px;
+    width: 80%;
+    height: 35px;
+    text-align: left;
+}
+
+.edit-text {
+    border: 1px solid rgb(200, 200, 200);
+    border-radius: 5px;
+    height: 30px;
+    width: 50%;
+    text-align: left;
+    font-size: 16px;
+}
+
+ul {
+    margin-top: 15px;
+    padding: 0;
+}
+
+ul li {
+    padding: 5px;
+    list-style: none;
+}
+
+.ul-li-div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.button-save {
+    background-color: #6ec676;
+    cursor: pointer;
+    border-radius: 5px;
+    border-style: none;
+    height: 20px;
+    font-size: 14px;
+    color: #ffffff;
+    touch-action: manipulation;
+    margin-left: 5px;
+    height: 35px;
+    width: 15%;
+}
+.button-save:hover {
+    background: #2f2f2f;
+    color: #ffffff;
+}
+.button-save:active {
+    background-color: #6ec676;
+    outline: none;
+}
+
+.button-remove {
+    background-color: #e24949;
+    cursor: pointer;
+    border-radius: 5px;
+    border-style: none;
+    height: 20px;
+    font-family: "Google Sans", Roboto, Arial, sans-serif;
+    font-size: 14px;
+    color: #ffffff;
+    touch-action: manipulation;
+    margin-right: 15px;
+    height: 30px;
+    width: 150px;
+}
+
+.button-remove:hover {
+    background: #2f2f2f;
+    color: #ffffff;
+}
+
+.button-remove:active {
+    background-color: #e24949;
+    outline: none;
+}
+
+.button-remove-disabled {
+    background-color: #696969;
+    cursor: pointer;
+    border-radius: 5px;
+    border-style: none;
+    height: 20px;
+    font-family: "Google Sans", Roboto, Arial, sans-serif;
+    font-size: 14px;
+    color: #ffffff;
+    touch-action: manipulation;
+    margin-right: 15px;
+    height: 30px;
+    width: 150px;
+}
+.button-remove-disabled:hover {
+    background: #2f2f2f;
+    color: #ffffff;
+}
+
+.button-remove-disabled:active {
+    background-color: #696969;
+    outline: none;
+}
+
+.button-update {
+    background-color: #2196F3;
+    cursor: pointer;
+    border-radius: 5px;
+    border-style: none;
+    height: 20px;
+    font-family: "Google Sans", Roboto, Arial, sans-serif;
+    font-size: 14px;
+    color: #ffffff;
+    touch-action: manipulation;
+    margin-left: 5px;
+    height: 30px;
+    width: 20%;
+}
+
+.button-update:hover {
+    background: #2f2f2f;
+    color: #ffffff;
+}
+
+.button-update:active {
+    background-color: #2196F3;
+    outline: none;
+}
+
+.button-cancel {
+    background-color: #e24949;
+    cursor: pointer;
+    border-radius: 5px;
+    border-style: none;
+    height: 20px;
+    font-family: "Google Sans", Roboto, Arial, sans-serif;
+    font-size: 14px;
+    color: #ffffff;
+    touch-action: manipulation;
+    margin-left: 5px;
+    height: 30px;
+    width: 20%;
+}
+
+.button-cancel:hover {
+    background: #2f2f2f;
+    color: #ffffff;
+}
+
+.button-cancel:active {
+    background-color: #e24949;
+    outline: none;
+}
+
+.check-box {
+    height: 20px;
+    width: 20px;
+    align-items:center;
+    margin-left: 15px;
+    cursor: pointer;
+}
+
+.line {
+    width: 98%;
+}
+
+.small-text {
+    cursor: pointer;
+}
+
+.small-text-done {
+    text-decoration: line-through;
+}
